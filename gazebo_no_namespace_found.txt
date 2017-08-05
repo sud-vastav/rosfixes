@@ -1,0 +1,3 @@
+sudo sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu trusty main" > /etc/apt/sources.list.d/gazebo-latest.list'
+wget http://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -
+
